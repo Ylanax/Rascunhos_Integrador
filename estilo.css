@@ -56,7 +56,7 @@ table {
 .banner{
     background-image: url(imagens/banner-ancora.jpg);
     background-size: cover;
-    padding-top: 288px;
+    padding-top: 160px;
     padding-bottom: 80px;
     padding-left: 50px;
 }
@@ -65,18 +65,18 @@ table {
     background-color: #A85921;
     border: 3px solid #fff;
     border-radius: 40px;
-    width: 500px;
+    width: 450px;
 }
 
 .logo{
-    margin-left: 40px;
-    padding-top: 20px;
-    padding-bottom: 21px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .logo-texto{
     font-family: "Inknut Antiqua";
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ table {
     font-family: "Inknut Antiqua";
     color: black;
     display: inline-block;
-    margin-left: 400px;
+    margin-left: 590px;
     margin-right: 45px;
     font-size: 20px;
     font-weight: medium;
@@ -116,4 +116,22 @@ table {
     font-size: 20px;
     font-weight: medium;
     text-decoration: none;
+}
+
+.botao-navegar{
+    font-family: "Inknut Antiqua";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #A85921;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.botao{
+    padding-top: 123px;
+    margin-left: 5px;
 }
