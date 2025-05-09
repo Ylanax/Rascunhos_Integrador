@@ -4,55 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="shortcut icon" href="imagens/icone.png" type="image/icone">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/icone">
 </head>
 <body>
-    <div class="fundo-cadastrar">
-        <div class="menu-cadastrar">
-            <h1 class="titulo-cadastrar">Crie sua conta</h1>
-            <h2 class="subtitulo-cadastrar">Preencha seus dados</h2>
-            <form action="/login" method="POST" class="form-cadastro">
-                <div class="campo-cadastro">
-                    <input type="text" id="usuario" name="usuario" placeholder="Nome Completo" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="text" id="cpf" name="CPF" placeholder="CPF" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="text" id="telefone" name="Telefone" placeholder="Telefone" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="text" id="email" name="Email" placeholder="Email" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="email" id="email_confirmacao" name="Confirmar Email" placeholder="Confirmar Email" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="password" id="senha" name="senha" placeholder="Senha" class="texto-cadastro" required>
-                </div>
-                <div class="campo-cadastro">
-                    <input type="password" id="senha_confirmacao" name="senha" placeholder="Confirmar Senha" class="texto-cadastro" required>
-                </div>
+    <main class="conteudo">
+        <div id="col1">
+            <h2 class="login">LOGIN</h2>
+            <p class="dados">Preencha seus dados</p>
+            <form class="clientes">
+                <label class="rotulo1">Email</label>
+                <input type="text" class="campo-texto" required placeholder="Digite seu email">
+                <label class="rotulo2">Senha</label>
+                <input type="password" class="campo-texto" required placeholder="Digite sua senha">
+                <button class="botao-entrar">Entrar</button><br>
+                <button class="botao-criar-conta">Criar conta</button>
             </form>
-            <form>
-                <label for="sexo">Selecione seu sexo:</label>
-                <select id="sexo" name="sexo">
-                    <option value="masculino">Masculino</option>
-                    <option value="feminino">Feminino</option>
-                    <option value="nao_informar">Prefiro não informar</option>
-                </select>
-            </form>
-            <button type="submit" class="botao-cadastrar">
-                <a class="link-botao-entrar" href="#">CADASTRAR</a>
-            </button>
-            <button type="submit" class="botao-cadastrar">
-                <a class="link-botao-entrar" href="#">ENTRAR</a>
-            </button>
         </div>
-    </div>
-</div>
-    <script src="app.js"></script>
     </main>
+    
+    <script src="app.js"></script>
+</body>
 </body>
 </html>

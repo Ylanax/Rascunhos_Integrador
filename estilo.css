@@ -136,121 +136,98 @@ table {
     margin-left: 5px;
 }
 
-body {
-    font-family: "Poppins";
-    margin: 0;
-    padding: 0;
-    background-color: #f3f4f6;
-    color: #333;
+body{
+    background-image: url('imagens/banner-ancora-cortada.png');
+    
 }
- 
-/* Container principal */
-.login {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
- 
-/* Títulos */
-.titulo-entrar {
+
+#col1{
+    background-color: #A85921;
+    width: 400px;
+    margin-top: 176px;
+    margin-bottom: 176px;
+    margin-left: 453px;
+    margin-right: 452px;
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #007bff;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 40px;
+    border: 3px solid #000;  
 }
- 
-.titulo-cadastrar {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #007bff;
-}
- 
-.subtitulo-cadastrar {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #555;
-}
- 
-/* Formulários */
-.form-cadastro {
-    display: flex;
-    flex-direction: column;
-}
- 
-.campo-cadastro {
-    margin-bottom: 15px;
-}
- 
-.texto-cadastro {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
- 
-/* Seleção de sexo */
-form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-    display: block;
-}
- 
-form select {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
- 
-/* Botões */
-.botao-cadastrar {
-    margin-right: 10px;
-    margin-top: 15px;
-    padding: 10px 20px;
-    font-size: 16px;
+
+.login{
     color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    text-align: center;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 37px;
+    padding-bottom: 20px;
 }
- 
-.botao-cadastrar:hover {
-    background-color: #0056b3;
+
+.dados{
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
- 
-.link-botao-entrar {
-    text-decoration: none;
-    color: inherit;
+
+.rotulo1{
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
 }
- 
-.botao-cadastrar:last-of-type {
-    margin-right: 0;
+
+.rotulo2{
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
- 
-/* Responsividade */
-@media (max-width: 600px) {
-    .login {
-        padding: 15px;
-    }
- 
-    .titulo-entrar {
-        font-size: 20px;
-    }
- 
-    .titulo-cadastrar {
-        font-size: 18px;
-    }
- 
-    .botao-cadastrar {
-        font-size: 14px;
-        padding: 8px 16px;
-    }
+
+.campo-texto{
+    font-weight: 500;
+    width: 359px;
+    font-size: 16px;
+    color: #000; 
+    padding: 7px 13px; 
+    border: 2px solid #000;  
+    border-radius: 10px;  
+    box-sizing: border-box;
+}
+
+.botao-entrar{
+    background-color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+
+.botao-criar-conta{
+    background-color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
