@@ -189,7 +189,7 @@ body{
     font-size: 20px;
     display: block;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .campo-texto{
@@ -214,7 +214,7 @@ body{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .botao-criar-conta{
@@ -229,5 +229,102 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.rotulo3{
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo4{
+color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo5{
+color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo6{
+color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.rotulo7{
+color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.sexo{
+color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+display: block;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+.caixa{
+font-family: "Poppins";
+font-weight: 500;
+margin-bottom: 10px;
+padding: 5px;
+border-radius: 10px;
+}
+
+.botao-criar{
+background-color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #000;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 15px;
+}
+
+.botao-voltar{
+background-color: #fff;
+font-family: "Poppins";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #000;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 10px;
+margin-bottom: 40px;
 }
