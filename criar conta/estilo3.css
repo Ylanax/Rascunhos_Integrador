@@ -49,93 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-.cabecalho{
-    background-color: #A85921;
-}
-
-.banner{
-    background-image: url(imagens/ancora2.jpg);
-    background-size: cover;
-    padding-top: 160px;
-    padding-bottom: 80px;
-    padding-left: 50px;
-}
-
-.logo-banner{
-    background-color: #A85921;
-    border: 3px solid #fff;
-    border-radius: 40px;
-    width: 450px;
-}
-
-.logo{
-    margin-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.logo-texto{
-    font-family: "Inknut Antiqua";
-    font-size: 25px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-}
-
-.menu{
-    display: flex;
-    align-items: center;
-}
-
-.link-menu1{
-    font-family: "Inknut Antiqua";
-    color: black;
-    display: inline-block;
-    margin-left: 590px;
-    margin-right: 45px;
-    font-size: 20px;
-    font-weight: medium;
-    text-decoration: none;
-}
-
-.link-menu2{
-    font-family: "Inknut Antiqua";
-    color: black;
-    display: inline-block;
-    margin-right: 45px;
-    font-size: 20px;
-    font-weight: medium;
-    text-decoration: none;
-}
-
-.link-menu3{
-    font-family: "Inknut Antiqua";
-    color: black;
-    display: inline-block;
-    margin-right: 45px;
-    font-size: 20px;
-    font-weight: medium;
-    text-decoration: none;
-}
-
-.botao-navegar{
-    font-family: "Inknut Antiqua";
-    font-weight: bold;
-    font-size: 25px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #A85921;
-    border: 3px solid #fff;
-    border-radius: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.botao{
-    padding-top: 123px;
-    margin-left: 5px;
-}
-
 body{
     background-image: url('imagens/banner-ancora-cortada.png');
     
@@ -165,7 +78,7 @@ body{
 }
 
 .dados{
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     color: #fff;
     font-size: 20px;
@@ -175,7 +88,7 @@ body{
 
 .rotulo1{
     color: #fff;
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 20px;
     display: block;
@@ -184,7 +97,7 @@ body{
 
 .rotulo2{
     color: #fff;
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 20px;
     display: block;
@@ -205,7 +118,7 @@ body{
 
 .botao-entrar{
     background-color: #fff;
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 20px;
     border-radius: 10px;
@@ -219,7 +132,7 @@ body{
 
 .botao-criar-conta{
     background-color: #fff;
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 20px;
     border-radius: 10px;
@@ -234,7 +147,7 @@ body{
 
 .rotulo3{
     color: #fff;
-    font-family: "Inknut Antiqua";
+    font-family: "Poppins";
     font-weight: 500;
     font-size: 20px;
     display: block;
@@ -244,7 +157,7 @@ body{
 
 .rotulo4{
 color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -254,7 +167,7 @@ padding-top: 10px;
 
 .rotulo5{
 color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -264,7 +177,7 @@ padding-top: 10px;
 
 .rotulo6{
 color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -274,7 +187,7 @@ padding-top: 10px;
 
 .rotulo7{
 color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -284,7 +197,7 @@ padding-top: 10px;
 
 .sexo{
 color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -293,7 +206,7 @@ padding-top: 10px;
 }
 
 .caixa{
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 margin-bottom: 10px;
 padding: 5px;
@@ -301,22 +214,22 @@ border-radius: 10px;
 }
 
 .botao-criar{
-background-color: #fff;
-font-family: "Inknut Antiqua";
-font-weight: 500;
-font-size: 20px;
-border-radius: 10px;
-border: 2px solid #000;   
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 15px;
+    background-color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
 }
 
 .botao-voltar{
 background-color: #fff;
-font-family: "Inknut Antiqua";
+font-family: "Poppins";
 font-weight: 500;
 font-size: 20px;
 border-radius: 10px;
