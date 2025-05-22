@@ -54,7 +54,7 @@ body{
     
 }
 
-#col1{
+#col2{
     background-color: #A85921;
     width: 400px;
     margin-top: 176px;
@@ -68,7 +68,7 @@ body{
     border: 3px solid #000;  
 }
 
-.login{
+.login2{
     color: #fff;
     font-family: "Inknut Antiqua";
     font-weight: 500;
@@ -77,8 +77,8 @@ body{
     padding-bottom: 20px;
 }
 
-.dados{
-    font-family: "Poppins";
+.dados2{
+    font-family: "Inknut Antiqua";
     font-weight: 500;
     color: #fff;
     font-size: 20px;
@@ -86,68 +86,18 @@ body{
     padding-top: 20px;
 }
 
-.rotulo1{
+.rotulo01{
     color: #fff;
-    font-family: "Poppins";
+    font-family: "Inknut Antiqua";
     font-weight: 500;
     font-size: 20px;
     display: block;
     padding-bottom: 10px;
 }
 
-.rotulo2{
+.rotulo02{
     color: #fff;
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 20px;
-    display: block;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.campo-texto{
-    font-weight: 500;
-    width: 359px;
-    font-size: 16px;
-    color: #000; 
-    padding: 7px 13px; 
-    border: 2px solid #000;  
-    border-radius: 10px;  
-    box-sizing: border-box;
-}
-
-.botao-entrar{
-    background-color: #fff;
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 2px solid #000;   
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 20px;
-}
-
-.botao-criar-conta{
-    background-color: #fff;
-    font-family: "Poppins";
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 2px solid #000;   
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.rotulo3{
-    color: #fff;
-    font-family: "Poppins";
+    font-family: "Inknut Antiqua";
     font-weight: 500;
     font-size: 20px;
     display: block;
@@ -155,9 +105,19 @@ body{
     padding-top: 10px;
 }
 
-.rotulo4{
+.rotulo03{
+    color: #fff;
+    font-family: "Inknut Antiqua";
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.rotulo04{
 color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -165,9 +125,9 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
-.rotulo5{
+.rotulo05{
 color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -175,9 +135,9 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
-.rotulo6{
+.rotulo06{
 color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -185,9 +145,9 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
-.rotulo7{
+.rotulo07{
 color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -197,7 +157,7 @@ padding-top: 10px;
 
 .sexo{
 color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 display: block;
@@ -206,7 +166,7 @@ padding-top: 10px;
 }
 
 .caixa{
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 margin-bottom: 10px;
 padding: 5px;
@@ -214,22 +174,22 @@ border-radius: 10px;
 }
 
 .botao-criar{
-    background-color: #fff;
-    font-family: "Inknut Antiqua";
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 2px solid #000;   
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 15px;
+background-color: #fff;
+font-family: "Inknut Antiqua";
+font-weight: 500;
+font-size: 20px;
+border-radius: 10px;
+border: 2px solid #000;   
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 15px;
 }
 
 .botao-voltar{
 background-color: #fff;
-font-family: "Poppins";
+font-family: "Inknut Antiqua";
 font-weight: 500;
 font-size: 20px;
 border-radius: 10px;
