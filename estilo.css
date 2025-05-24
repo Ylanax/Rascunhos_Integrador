@@ -136,11 +136,6 @@ table {
     margin-left: 5px;
 }
 
-body{
-    background-image: url('imagens/banner-ancora-cortada.png');
-    
-}
-
 #col1{
     background-color: #A85921;
     width: 400px;
@@ -153,6 +148,14 @@ body{
     padding-right: 100px;
     border-radius: 40px;
     border: 3px solid #000;  
+}
+
+body{
+    background-size: cover;   
+}
+
+#fundo{
+    background-image: url("imagens/ancora1.jpg");
 }
 
 .login{
@@ -231,6 +234,7 @@ body{
     margin-top: 15px;
     margin-bottom: 20px;
 }
+
 
 #col2{
     background-color: #A85921;
